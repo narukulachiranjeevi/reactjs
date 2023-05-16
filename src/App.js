@@ -9,7 +9,7 @@ function App() {
       <BrowserRouter>
         <Navbar/>
         <Routes>
-          <Route path="/defination" element={<Defination/>}/>
+          <Route path="/defination/:search" element={<Defination/>}/>
           <Route path="/dictonary" element={<Dictonary/>}/>
         </Routes>
       </BrowserRouter>
